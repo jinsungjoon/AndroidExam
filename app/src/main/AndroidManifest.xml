@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.jsj.myapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activity19a1"
+            android:label="chap19-1(스레드 자동 갱신X)"/>
+        <activity android:name=".Activity19a2"
+            android:label="chap19-2 Thread->Runnable 작업위임"/>
+        <activity android:name=".Activity19a3"
+            android:label="chap19-3 Handler 사용 자동 갱신"/>
+        <activity android:name=".Activity19a4"
+            android:label="chap19-4 Handler post(new Runable)"/>
+        <activity android:name=".Activity19a5"
+            android:label="chap19-5 Handler post(runUpdate)"/>
+        <activity android:name=".Activity19a6"
+            android:label="chap19-6 runOnUiThread"/>
+        <activity android:name=".Activity19a7"
+            android:label="chap19-7 runOnUiThread(new Runable)"/>
+        <activity android:name=".Activity19a8"
+            android:label="chap19-8 outter BackThread"/>
+        <activity android:name=".Activity19a9"
+            android:label="chap19-9 Looper"/>
+        <activity android:name=".Activity19a10"
+            android:label="chap19-10 작업 스케줄링"/>
+        <activity android:name=".Activity19a11"
+            android:label="chap19-11 ANR"/>
+        <activity android:name=".Activity19a12"
+            android:label="chap19-12 AnsyncTask"/>
+        <activity android:name=".ActivityScore"
+            />
+    </application>
+
+</manifest>
